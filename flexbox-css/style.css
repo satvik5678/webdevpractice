@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  /*
+      flexbox
+  */
+  
+  .parent {
+    height: 10%;
+    width: 100%;
+    background-color: bisque;
+    border: 2px solid rgb(184, 109, 17);
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .child {
+    width: 15%;
+    height: 50%;
+    color: white;
+  }
+  
+  #child1 {
+    background-color: rgb(167, 62, 62);
+  }
+  #child2 {
+    background-color: rgb(128, 168, 69);
+  }
+  #child3 {
+    background-color: rgb(153, 80, 80);
+  }
+  #child4 {
+    background-color: rgb(157, 78, 157);
+  }
+  
+  /*
+      pseudo elements and classes
+      elements=> ::before, ::after, ::first-line, ::first-letter, ::selection
+  */
+  
+  p::before {
+    content: ">";
+  }
+  
+  p::after {
+    content: "<";
+  }
+  
+  /*
+      pseudo classes 
+      :hover, :active, :focus, :nth-child(n)
+  */
+  h3:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  button:active {
+    background-color: rgb(214, 117, 117);
+    color: green;
+  }
+  
+  input:focus {
+    background-color: aqua;
+    color: red;
+  }
+  
