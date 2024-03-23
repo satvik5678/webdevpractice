@@ -1,0 +1,49 @@
+/*
+        UNITS : px, %, vw, vh ,em ,ren, max-height, min-height, min-width, min-height
+*/
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      /*
+      you should not to use pixels because it wont make the website responsive
+      */
+      .test {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(187, 120, 120);
+      }
+      
+      /*
+              % is way more better it will also be responsible
+      */
+      
+      /*
+              % always take value from parent and vw and vh take the value from the screen
+              em depends on the font-size of the element and rem depends on the font size of the root element (html)
+      */
+      
+      .newtest {
+        width: 50%;
+        height: 50%;
+        background-color: rgb(119, 143, 82);
+      }
+      
+      h3 {
+        font-size: 2vw;
+      }
+      
+      .newtest1 {
+        width: 20vw;
+        height: 20vh;
+        background-color: rgb(87, 87, 147);
+      }
+      
+
