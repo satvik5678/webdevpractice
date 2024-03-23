@@ -10,7 +10,7 @@
     width: 100%;
   }
   
-  /*
+  /* 
       inline element won't allow us to give width and height 
   
       if we want to increase the height and width of the inline element we have to give (display:inline-block)
